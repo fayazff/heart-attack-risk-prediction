@@ -1,18 +1,33 @@
-# Heart Attack Prediction Using Retinal Fundus Images
+# Heart Attack Risk Prediction Using Retinal Fundus Images
 
 ## Overview
 Academic project focused on predicting heart attack risk from retinal fundus images
-using CNN-based architectures.
+using CNN-based deep learning architectures.
 
-## What This Repository Contains
-- Complete project report (PDF)
-- Model architecture, methodology, and evaluation details
+## Problem Statement
+Early detection of cardiovascular risk using non-invasive retinal imaging.
 
-## Tech Stack Used
+## Approach
+- Used CNN-based architecture (EfficientNet-B0)
+- Applied image preprocessing and normalization
+- Evaluated model performance using classification metrics
+
+## Tech Stack
 - Python
 - CNN
 - EfficientNet-B0
 - OpenCV (conceptual)
+- NumPy, Pandas
 
-## Note
-Source code is not included in this repository.
+## Results
+- Achieved reliable classification performance on test data
+- Demonstrated feasibility of retinal images for risk prediction
+
+## Limitations
+- Academic dataset size
+- No clinical deployment
+- Code not included in this repository
+
+## Repository Contents
+- Project report (PDF)
+- Architecture and evaluation documentation
